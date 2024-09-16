@@ -13,7 +13,7 @@ img {
 .caption{
     font-size: 16px;
     margin-left: 48px ;
-    padding-top: 24px;
+    padding-top: 12px;
 }
 .logos {
     display:flex;
@@ -111,7 +111,7 @@ iframe {
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 48px;
+    margin: 24px 48px;
     gap:48px;
     column-gap: 120px;
 }
@@ -129,7 +129,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 4px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 tr.break td{
