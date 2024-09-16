@@ -120,6 +120,21 @@ iframe {
     height: 50px;
     object-fit: contain; /* or "contain" */
 }
+
+.logos-sponsor-hackathon {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 24px 48px;
+    gap:48px;
+    column-gap: 40px;
+}
+.logos-sponsor-hackathon img {
+    width: auto;
+    height: 33px;
+    object-fit: contain; /* or "contain" */
+}
+
 #table{
     padding-right: 48px;
     width: 100%;
