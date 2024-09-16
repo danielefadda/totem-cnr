@@ -1,6 +1,6 @@
 html {
     background-color: white;
-    zoom: 1;
+    zoom: 0.35;
 }
 
 * {
@@ -11,21 +11,21 @@ img {
     display: block;
 }
 .caption{
-    font-size: 18px;
-    margin-left: 24px ;
+    font-size: 16px;
+    margin-left: 48px ;
     padding-top: 24px;
 }
 .logos {
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 24px;
+    margin: 24px 48px;
     gap:48px;
-    column-gap: 96px;
+    column-gap: 64px;
 }
 .logos img {
     width: auto;
-    height: 30px;
+    height: 50px;
     object-fit: contain; /* or "contain" */
 }
 
@@ -41,6 +41,7 @@ header {
     color: white;
     text-align: center;
     padding-bottom: 24px;
+    padding-right: 12px;
 }
 .date {
     font-size: 36px;
@@ -63,12 +64,12 @@ body {
     border: 1px solid black;
     width: 1080px;
     height: 1920px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 iframe {
     width: 1080px;
-    height: 1080px;
+    height: 820px;
     border: none;
     margin: 0;
     padding: 0;
@@ -82,7 +83,7 @@ iframe {
     margin-bottom: 24px;
 }
 
-footer {
+.footer {
     display: flex;
 }
 
@@ -93,6 +94,7 @@ footer {
     gap: 48px;
     padding: 0 48px 24px 48px;
     column-gap: 96px;
+    flex-direction: column;
 }
 
 #qr-codes img {
@@ -103,4 +105,33 @@ footer {
 
 #qr-codes .label {
     margin-bottom: 6px;
+}
+
+.logos-sponsor {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 48px;
+    gap:48px;
+    column-gap: 120px;
+}
+.logos-sponsor img {
+    width: auto;
+    height: 50px;
+    object-fit: contain; /* or "contain" */
+}
+#table{
+    padding-right: 48px;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+tr.break td{
+    padding: 8px 4px;
 }
